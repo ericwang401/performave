@@ -1,32 +1,28 @@
 export default {
-  author: "Sam Xie",
+  author: "Eric Wang",
   hero: {
-    subtitle: "Software engineer at Cash App.",
-    description: "Building reliable and scalable systems by day. Leveraging technology to launch fully featured products by night.",
-    cta: "Browse Products",
+    subtitle: "Full-stack web developer",
+    description: "I enjoy building web applications for the open-source ecosystem. I believe open-source apps is the future of the internet.",
+    cta: "Browse Projects",
   },
   products: {
     featured: [
       {
-        name: "DoubleText",
-        medium: "React · Go · GraphQL",
-        summary: "Facebook Messenger Analyzer",
+        name: "Stratum",
+        medium: "Vue · Laravel · Proxmox",
+        summary: "Beautiful KVM Server Control Panel",
         copy: [
-          "See millions of messages at a glance, without data leaving your computer."
+          "Easily manage your servers on Proxmox. Join the Discord community here https://discord.gg/GhCQCypEBQ"
         ],
         links: {
           color: "#363636",
           primary: {
-            name: "Discover",
-            url: "https://doubletext.me/"
+            name: "View",
+            url: "https://github.com/StratumPanel/Stratum-Panel/"
           }
         },
         images: [
           "/doubletext/0.jpg",
-          "/doubletext/1.jpg",
-          "/doubletext/2.jpg",
-          "/doubletext/3.jpg",
-          "/doubletext/4.jpg"
         ]
       },
       {
